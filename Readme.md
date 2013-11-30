@@ -10,7 +10,7 @@ Yes, it correctly handles leap years!
 Usage
 -----
 
-#### Creating A Quantity Picker
+#### Creating A Date Picker
 
 ```js
 var Picker = require('ribcage-date-picker')
