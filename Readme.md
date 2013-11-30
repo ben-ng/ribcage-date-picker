@@ -7,6 +7,15 @@ This is a widget that mimics the native "slot-machine" style pickers now ubiquit
 
 Yes, it correctly handles leap years!
 
+Demo
+----
+
+[Try the demo](http://ben-ng.github.io/ribcage-date-picker/)
+
+Screenshot
+----------
+![Demo Screenshot](http://ben-ng.github.io/ribcage-date-picker/screencap.jpg)
+
 Usage
 -----
 
