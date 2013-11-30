@@ -1,0 +1,46 @@
+{
+  "name": "ribcage-date-picker",
+  "version": "0.1.0",
+  "description": "A iOS-inspired UIDatePickerView for ribcage-ui",
+  "main": "datePicker.js",
+  "dependencies": {
+    "lodash.foreach": "2.3.x",
+    "lodash.keys": "2.3.x",
+    "hbsfy": "1.0.x",
+    "node-calendar": "0.1.x",
+    "cldr": "https://github.com/papandreou/node-cldr/archive/master.tar.gz"
+  },
+  "devDependencies": {
+    "browserify": "2.35.x",
+    "ribcage-view": "0.0.x",
+    "ribcage-picker": "0.1.x",
+    "jquery-browserify": "1.8.x",
+    "phantom-limb": "0.0.x",
+    "backbone": "1.0.x",
+    "mkdirp": "0.3.x",
+    "cpr": "0.1.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ben-ng/ribcage-date-picker.git"
+  },
+  "keywords": [
+    "ribcage-view",
+    "ribcage-ui",
+    "date",
+    "picker",
+    "backbone"
+  ],
+  "browserify": {
+    "transform": "hbsfy"
+  },
+  "style": "picker.css",
+  "author": "Ben Ng <me@benng.me> (http://benng.me)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
