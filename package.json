@@ -8,7 +8,7 @@
     "lodash.keys": "2.3.x",
     "hbsfy": "1.0.x",
     "node-calendar": "0.1.x",
-    "cldr": "https://github.com/papandreou/node-cldr/archive/master.tar.gz"
+    "cldr": "2.0.x"
   },
   "devDependencies": {
     "browserify": "2.35.x",
