@@ -1,31 +1,26 @@
 var DatePicker = require('../../datePicker')
   , Ribcage = require('ribcage-view')
-  , Backbone = require('backbone')
-  , $ = require('jquery-browserify')
-  , phantom = require('phantom-limb')
   , AppView
   , App;
-
-Backbone.$ = $;
 
 AppView = Ribcage.extend({
   template: require('./app.hbs')
 , afterInit: function () {
-    var self = this;
-
     this.picker = new DatePicker({
       allowFuture: false
-    });
-
-    this.listenTo(this.picker, 'change', function () {
-      self.$('.date').text(self.context().date.toString());
     });
   }
 , afterRender: function () {
     var self = this;
 
+    this.stopListening(this.picker);
     this.appendSubview(this.picker, this.$('.spinholder'));
     this.picker.render();
+    this.picker.delegateEvents();
+
+    this.listenTo(this.picker, 'change', function () {
+      self.$('.date').text(self.context().date.toString());
+    });
   }
 , context: function () {
     var vals = this.picker.getValues();
@@ -36,8 +31,7 @@ AppView = Ribcage.extend({
   }
 });
 
-App = new AppView({
-  el: $('#app')
-});
-
-window.App = App;
+App = new AppView({});
+document.body.appendChild(App.el);
+App.el.id = 'app';
+App.render();

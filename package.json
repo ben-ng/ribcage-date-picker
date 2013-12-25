@@ -4,21 +4,18 @@
   "description": "A iOS-inspired UIDatePickerView for ribcage-ui",
   "main": "datePicker.js",
   "dependencies": {
-    "ribcage-picker": "0.2.x",
-    "lodash.foreach": "2.3.x",
-    "lodash.keys": "2.3.x",
-    "hbsfy": "1.0.x",
-    "node-calendar": "0.1.x",
-    "cldr": "2.0.x"
+    "ribcage-picker": "~0.3.2",
+    "lodash.foreach": "~2.4.1",
+    "lodash.keys": "~2.4.1",
+    "hbsfy": "~1.0.0",
+    "node-calendar": "~0.1.4",
+    "cldr": "~2.0.1"
   },
   "devDependencies": {
-    "browserify": "2.35.x",
-    "ribcage-view": "0.0.x",
-    "jquery-browserify": "1.8.x",
-    "phantom-limb": "0.0.x",
-    "backbone": "1.0.x",
-    "mkdirp": "0.3.x",
-    "cpr": "0.1.x"
+    "browserify": "~3.14.1",
+    "mkdirp": "~0.3.5",
+    "cpr": "~0.1.1",
+    "ribcage-view": "0.0.12"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
