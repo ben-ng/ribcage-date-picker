@@ -1,6 +1,6 @@
 {
   "name": "ribcage-date-picker",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A iOS-inspired UIDatePickerView for ribcage-ui",
   "main": "datePicker.js",
   "dependencies": {
