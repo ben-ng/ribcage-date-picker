@@ -1,10 +1,10 @@
 {
   "name": "ribcage-date-picker",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A iOS-inspired UIDatePickerView for ribcage-ui",
   "main": "datePicker.js",
   "dependencies": {
-    "ribcage-picker": "~0.3.3",
+    "ribcage-picker": "~0.4.0",
     "lodash.foreach": "~2.4.1",
     "lodash.keys": "~2.4.1",
     "hbsfy": "~1.0.0",

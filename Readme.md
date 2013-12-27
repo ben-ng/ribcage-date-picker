@@ -12,10 +12,6 @@ Demo
 
 [Try the demo](http://ben-ng.github.io/ribcage-date-picker/)
 
-Screenshot
-----------
-![Demo Screenshot](http://ben-ng.github.io/ribcage-date-picker/screencap.jpg)
-
 Usage
 -----
 
