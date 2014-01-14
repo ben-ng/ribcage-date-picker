@@ -105,4 +105,8 @@ createDays = function (month, year) {
   return ret;
 };
 
-module.exports = DatePicker;
+module.exports = function RibcageDatePicker () {
+  function F() { return DatePicker.apply(this, arguments); }
+  F.prototype = DatePicker.prototype;
+  return new F();
+};
