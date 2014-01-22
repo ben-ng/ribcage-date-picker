@@ -48,7 +48,7 @@ DatePicker = function (opts) {
       }
 
       if(key == 'month' || key == 'year') {
-        picker.setSlot('day', {values: createDays(newSelection.month.value, newSelection.year.value)});
+        this.setSlot('day', {values: createDays(newSelection.month.value, newSelection.year.value)});
       }
     }
   });
